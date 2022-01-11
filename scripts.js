@@ -1,7 +1,6 @@
 window.onload = function() {
 
     darkmode = document.getElementById("check1");
-    hidden = document.getElementById("check2");
     page = document.getElementsByClassName("pagina")[0];
 
     function colors(color, colorPage) {
