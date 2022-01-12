@@ -67,8 +67,31 @@ div.pagina {
     width: 600px;
 }
 
-img:hover>.photo {
+.photo {
+    width: 180;
+    height: 128;
+    transition: width 1s, heigth 1s;
+}
+
+.photo:hover {
     width: 210;
     height: 158;
-    transition: width 1s, height 1s;
+}
+
+iframe {
+    transition: all linear 0.5s;
+    background-color: lightblue;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.ng-hide {
+    height: 0;
+    width: 0;
+    background-color: transparent;
+    top: -200px;
+    left: 200px;
 }
